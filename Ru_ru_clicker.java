@@ -13,8 +13,10 @@ public class Ru_ru_clicker {
         int i = 0;
         bot.delay(2000);
         if (Clicks == 0){
+            while(true){
             bot.mousePress(InputEvent.BUTTON1_MASK);
             bot.mouseRelease(InputEvent.BUTTON1_MASK);
+            }
         }
         while (i < Clicks){
             bot.delay(Delay);
